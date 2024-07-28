@@ -46,7 +46,20 @@ padding: 0;
     right: -1px;
     top: -1px;
     border: solid 1px black;
-    background-color: rgb(116, 215, 233);
+ 
+}
+
+.back-valstrax{
+    background-color: rgba(209, 8, 8, 0.658);
+}
+
+.back-deviljho{
+    background-color: rgba(52, 78, 11, 0.671);
+
+}
+
+.back-zinogre{
+    background-color: rgba(11, 223, 223, 0.589);
 }
 
 .img{
