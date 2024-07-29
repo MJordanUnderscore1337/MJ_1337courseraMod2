@@ -19,15 +19,6 @@ margin: 0;
 padding: 0;
 }
 
-.container { 
-    margin: 15px 15px 15px 15px;
-    /* border: solid black 1px; */
-    box-sizing: border-box;
-    /* background-color: aquamarine; */
-}
-
-
-
 .box{
     float: left;
     border: 1px solid black;
@@ -47,8 +38,8 @@ padding: 0;
     position: absolute;
     padding: 5px;
     margin-bottom: 20px;
-    right: -1px;
-    top: -1px;
+    right: -0.5px;
+    top: -1.0px;
     border: solid 1px black;
  
 }
@@ -72,15 +63,9 @@ padding: 0;
     margin: 16px;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
- }
-
 .grid{
     display: grid;
-    gap: 10px;
+    gap: 20px;
     padding: 20px;
  }
 
